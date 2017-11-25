@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="nathaniel95975_alphabetic_pagination@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="nathaniel95975_alphabetic_pagination">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="angulartest"/>
+    <schema id="4" parent="1" name="crud_alinko"/>
+    <schema id="5" parent="1" name="homestead"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="java_shopping_cart"/>
+    <schema id="8" parent="1" name="myblog"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="my_guitar_shop1"/>
+    <schema id="11" parent="1" name="my_guitar_shop2"/>
+    <schema id="12" parent="1" name="nathaniel95975_bootstrap_panels"/>
+    <schema id="13" parent="1" name="nathaniel95975_bootstrap_popover"/>
+    <schema id="14" parent="1" name="nathaniel95975_crud_oops_pagination"/>
+    <schema id="15" parent="1" name="nathaniel95975_helpdesk"/>
+    <schema id="16" parent="1" name="nathaniel95975_inventory_management"/>
+    <schema id="17" parent="1" name="nathaniel95975_php_piechart"/>
+    <schema id="18" parent="1" name="nathaniel_test"/>
+    <schema id="19" parent="1" name="performance_schema"/>
+    <schema id="20" parent="1" name="phpmyadmin"/>
+    <schema id="21" parent="1" name="test"/>
+    <schema id="22" parent="1" name="website_designs"/>
+    <table id="23" parent="2" name="tbl_student"/>
+    <column id="24" parent="23" name="student_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="23" name="student_name">
+      <Position>2</Position>
+      <DataType>varchar(250)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="23" name="student_phone">
+      <Position>3</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="27" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>student_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
